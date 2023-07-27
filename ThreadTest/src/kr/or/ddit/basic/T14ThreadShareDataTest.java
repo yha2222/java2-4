@@ -1,6 +1,7 @@
 package kr.or.ddit.basic;
 
 public class T14ThreadShareDataTest {
+	
 /*
  	스레드에서 데이터를 공통으로 사용하는 방법
  	

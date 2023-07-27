@@ -1,6 +1,7 @@
 package kr.or.ddit.basic;
 
 public class T09ThreadDaemonTest {
+	
 	public static void main(String[] args) {
 		
 		AutoSaveThread autoSave = new AutoSaveThread();

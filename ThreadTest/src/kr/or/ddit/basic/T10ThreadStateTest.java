@@ -42,6 +42,7 @@ class TargetThread extends Thread {
 
 // 스레드의 상태를 모니터링 하는 스레드
 class StatePrintThread extends Thread {
+	
 	private Thread targetThread;
 
 	public StatePrintThread(Thread targetThread) {

@@ -2,6 +2,7 @@ package kr.or.ddit.basic;
 
 //검사 중지시키는 방법
 public class T13ThreadStopTest {
+	
 	public static void main(String[] args) {
 		
 //		ThreadStopEx1 th1 = new ThreadStopEx1();

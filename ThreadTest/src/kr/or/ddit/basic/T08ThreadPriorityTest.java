@@ -1,6 +1,7 @@
 package kr.or.ddit.basic;
 
 public class T08ThreadPriorityTest {
+	
 //적용된다는 보장 없음 하면 뭐 좋지만 너무 믿지 마라..
 	public static void main(String[] args) {
 		//제공하는 상수 찍어보기

@@ -21,6 +21,7 @@ public class T12ThreadYieldTest {
 }
 
 class YieldThreadEx1 extends Thread {
+	
 	public YieldThreadEx1() {
 		super("양보 스레드");
 	}
