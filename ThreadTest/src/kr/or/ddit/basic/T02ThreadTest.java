@@ -2,7 +2,6 @@ package kr.or.ddit.basic;
 
 public class T02ThreadTest {
 	public static void main(String[] args) {
-		
 		//멀티스레드 프로그램 방식
 		
 		//방법1 : Thread 클래스를 상속한 클래스의 인스턴스를 생성한 후

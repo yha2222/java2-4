@@ -14,7 +14,6 @@ public class T06ThreadTest {
 		
 		th1.start();
 		th2.start();
-		
 	}
 }
 

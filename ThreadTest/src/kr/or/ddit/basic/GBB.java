@@ -1,7 +1,6 @@
 package kr.or.ddit.basic;
 
 import javax.swing.JOptionPane;
-
 /*
 	컴퓨터와 가위 바위 보를 진행하는 프로그램을 작성하시오.
 
@@ -43,7 +42,7 @@ public class GBB {
 //		}
 		
 		//카운트다운 실행
-		Thread tm = new GameTimer();
+		Thread tm = new GameTimerr();
 		tm.start();
 		
 		//사용자로부터 가위, 바위, 보 입력받기

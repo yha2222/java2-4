@@ -8,6 +8,7 @@ public class T04ThreadTest {
 		  여러 스레드로 분할해서 작업할 떄의 시간을 확인해보기
 		*/
 		
+		
 		//단독으로 처리할 때
 		SumThread sumTh = new SumThread(1, 2000000000);
 		

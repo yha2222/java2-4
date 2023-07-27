@@ -2,9 +2,7 @@ package kr.or.ddit.basic;
 
 import javax.swing.JOptionPane;
 
-/*
- 	단일 스레드에서 사용자 입력 처리 예제
- */
+//단일 스레드에서 사용자 입력 처리 예제
 
 public class T05ThreadTest {
 	public static void main(String[] args) {

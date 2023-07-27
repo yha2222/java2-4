@@ -22,7 +22,6 @@ public class T03ThreadTest {
 		long endTime = System.currentTimeMillis();
 		System.out.println(startTime);
 		System.out.println("경과시간: " + (endTime - startTime) + "(ms)");
-		
 	}
 }
 
