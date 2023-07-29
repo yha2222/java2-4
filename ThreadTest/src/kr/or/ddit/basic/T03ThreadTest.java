@@ -25,7 +25,7 @@ public class T03ThreadTest {
 	}
 }
 
-//1~10억까지의 합께를 구하기
+//1~10억까지의 합계를 구하기
 class MyRunner implements Runnable {
 
 	@Override

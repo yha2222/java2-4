@@ -97,7 +97,6 @@ class UserInput extends Thread {
 	public void run() {
 		
 		String inputData = "";
-		
 		do{
 			inputData = JOptionPane.showInputDialog("가위, 바위, 보를 입력하세요");
 		}while(!inputData.equals("가위") && !inputData.equals("바위") && !inputData.equals("보"));

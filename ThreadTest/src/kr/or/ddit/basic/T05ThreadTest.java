@@ -3,7 +3,6 @@ package kr.or.ddit.basic;
 import javax.swing.JOptionPane;
 
 //단일 스레드에서 사용자 입력 처리 예제
-
 public class T05ThreadTest {
 	public static void main(String[] args) {
 		String str = JOptionPane.showInputDialog("아무거나 입력하세요");

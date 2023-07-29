@@ -3,6 +3,7 @@ package kr.or.ddit.basic;
 import javax.swing.JOptionPane;
 
 public class T06ThreadTest {
+	
 	//입력 여부를 확인하기 위한 변수 선언
 	//모든 스레드에서 공통으로 사용할 변수
 	public static boolean inputCheck = false; //true면 사용자가 입력함

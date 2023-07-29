@@ -61,7 +61,6 @@ class ThreadTest2 extends Thread {
 		for(char ch='a'; ch <= 'z'; ch++) {
 			System.out.println(ch);
 			
-			//아무것도 하지 않는 반복문(시간 때우기용)
 			for(long i = 1; i <= 1000000000L; i++) {}
 		}
 	}

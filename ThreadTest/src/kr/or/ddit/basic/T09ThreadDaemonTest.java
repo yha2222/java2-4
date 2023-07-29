@@ -3,7 +3,6 @@ package kr.or.ddit.basic;
 public class T09ThreadDaemonTest {
 	
 	public static void main(String[] args) {
-		
 		AutoSaveThread autoSave = new AutoSaveThread();
 		
 		//데몬스레드로 설정하기(데몬 외 전부 일반 스레드)
