@@ -28,7 +28,7 @@ public class T14ThreadShareDataTest {
 
 }
 
-//공유 객체(공유 객체가 담고 있는 정보(동일한 데이터)여러 스레드가 공유) 역할하는 거 정의
+//공유 객체(공유 객체가 담고 있는 정보(동일한 데이터)두 개 이상의 스레드가 공유) 역할하는 거 정의
 class ShareData {
 	private double result; //원주율이 저장될 변수
 	
