@@ -66,7 +66,8 @@ class StatePrintThread extends Thread {
 			// 스레드가 종료되었는지 검사
 			if (state == Thread.State.TERMINATED) {
 				break;  
-				//targetThread.start(); => 예외 발생(terminated=>start 안됨) => 하고 싶으면 새로 만들어야 됨
+				//targetThread.start();
+				//   => 예외 발생(terminated=>start 안됨) => start() 다시 하고 싶으면 새로 만들어야 됨
 			}
 
 			//모니터링
