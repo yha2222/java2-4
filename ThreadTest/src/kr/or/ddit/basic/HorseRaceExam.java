@@ -114,7 +114,6 @@ class Horse extends Thread implements Comparable<Horse> {
 
 /**
  * 전체 말의 위치를 출력하기 위한 스레드 클래스
- * @author macween
  *
  */
 class HorsePositionDisplay extends Thread {
